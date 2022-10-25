@@ -60,3 +60,11 @@ body{
     background-color: antiquewhite;
     color: black;
 }
+
+.section1{
+    position: relative;
+}
+.section1Image img{
+    height: 250px;
+    width: 250px;
+}
