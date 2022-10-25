@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+*{
+    font-family: "Nanum Gothic", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display:block;
+}
 
 
 #background{
@@ -13,6 +21,7 @@
 
 .header{
     display: flex;
+    align-items: center;
     background-color: rgb(0, 0, 0, .8);
     width: 100%;
     z-index: 9;
@@ -29,4 +38,25 @@
 .leftHeader img{
     width: 75px;
     height: 75px;
+}
+
+.rightHeader{
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.rightHeader a{
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 15px 15px 0px 15px;
+    font-size: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.rightHeader a:hover{
+    background-color: antiquewhite;
+    color: black;
 }
