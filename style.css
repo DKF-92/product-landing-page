@@ -22,7 +22,7 @@ body{
 .header{
     display: flex;
     align-items: center;
-    background-color: rgb(0, 0, 0, .8);
+    background-color: rgb(0, 0, 0, .95);
     width: 100%;
     z-index: 9;
     top: 0;
@@ -62,9 +62,32 @@ body{
 }
 
 .section1{
-    position: relative;
+    display: flex;
+    align-items: center;
+    color:antiquewhite;
+    height:100%;
+    width: 100%;
+    justify-content: center;
+}
+.section1Container{
+    display: flex;
+    margin-top: 15rem;
+    background-color: rgba(5, 5, 5, 0.9);
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+.section1Container div{
+    flex: 1;
+}
+.section1Description{
+    text-align: center;
+}
+.section1Image{
+    display:flex;
+    justify-content: space-around;
 }
 .section1Image img{
-    height: 250px;
-    width: 250px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
 }
