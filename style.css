@@ -5,9 +5,8 @@
 }
 
 body{
-    display:block;
+    margin:0;
 }
-
 
 #background{
     height: 100%;
@@ -95,12 +94,16 @@ body{
 /*Section 2*/
 .section2{
     color:antiquewhite;
-    background-color: rgba(5, 5, 5);
+    background-color: rgba(5, 5, 5, 0.9);
     font-size: 25px;
-    margin: 200px;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 5px;
 }
 .section2Container{
     display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .section2 img{
     height: 250px;
