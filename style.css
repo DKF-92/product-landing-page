@@ -70,7 +70,7 @@ body{
 }
 .section1Container{
     display: flex;
-    margin-top: 15rem;
+    margin-top: 10rem;
     background-color: rgba(5, 5, 5, 0.9);
     padding: 20px 10px 20px 10px;
     border-radius: 10px;
@@ -80,6 +80,7 @@ body{
 }
 .section1Description{
     text-align: center;
+    margin-top: 5em;
 }
 .section1Image{
     display:flex;
@@ -90,13 +91,19 @@ body{
     width: 500px;
     border-radius: 10px;
 }
+.section1Description h1{
+    font-size: 2.2rem;
+}
+.section1Description p{
+    font-size: 1.2rem;
+}
 
 /*Section 2*/
 .section2{
     color:antiquewhite;
     background-color: rgba(5, 5, 5, 0.9);
     font-size: 25px;
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
     border-radius: 5px;
 }
@@ -109,4 +116,66 @@ body{
     height: 250px;
     width: 250px;
     border-radius: 5px;
+}
+
+/*Section 3*/
+.section3{
+    color:antiquewhite;
+    margin-top: 100px;
+    text-align: center;
+    padding: 100px;
+}
+.section3 .quote{
+    font-size: 50px;
+    text-shadow: 0 0 0.8em rgb(255 255 255)
+}
+.section3 .author{
+    font-size: 25px;
+    padding:10px;
+    text-shadow: 0 0 0.8em rgb(255 255 255)
+}
+
+/*Section 4*/
+.section4{
+    color: antiquewhite;
+    background-color: rgba(5, 5, 5, 0.9);
+    font-size: 2.2rem;
+    margin-top: 100px;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+    /*Button with box shadow effect*/
+.section4 button{   
+    color:antiquewhite;
+    font-size: 1.5rem;
+    border-color: purple;
+    box-shadow: 0 0 40px 40px inset purple, 0 0 0 0 purple;
+    transition: all 250ms ease-in-out;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+}      
+.section4 button:hover{
+    box-shadow: 0 0 10px 0 inset purple, 0 0 10px 4px purple;
+    color: purple;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+.footerLink{
+    color: antiquewhite;
+    text-shadow: 0 0 0.2em rgb(255 255 255);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
 }
